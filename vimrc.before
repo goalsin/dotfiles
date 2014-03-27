@@ -14,3 +14,10 @@ function! <SID>StripTrailingWhitespaces()
         call cursor(l, c)
 endfunction
 autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
+
+:map <F6> :NERDTreeToggle<cr>
+:map <F1> :tabp<cr>
+:map <F2> :tabn<cr>
+:map <F3> <c-w><c-w>
+:map <F4> :q<cr>
+:map <F8> ggVG=<cr>:w!<cr>
