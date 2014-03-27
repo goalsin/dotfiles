@@ -13,3 +13,9 @@ vimrc.before
 ### tmux
 
 tmux.conf
+
+### usage
+
+    curl -Lo- https://bit.ly/janus-bootstrap | bash
+    ./apply.sh
+
